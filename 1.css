@@ -1,0 +1,124 @@
+/* Tất cả màu bên dưới bạn đều có thể thay đổi được */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    /* Bật lên nếu bạn mún thêm ảnh nền */
+    background-image: url("./img/bia2.jpg");
+    background-color: white;
+    background-size: contain;
+    background-repeat: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.text-box-tym {
+    margin-bottom: 110px;
+}
+.reason-btn {
+    background-color: #c99a4ca8;
+}
+.sup {
+    color: #ffffff;
+}
+.firstclk {
+    font-weight: 500;
+    font-size: 28pt;
+    font-family: "Sacramento", cursive;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #c99a4ca8;
+    margin-bottom: 30px;
+}
+.layerMask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: white;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.layerMask2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: pink;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.Description .sup {
+    display: inline-block;
+    color: #f5e4e3;
+    font-weight: 450;
+    font-size: 18px;
+}
+.drawHeart img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+span {
+    display: inline-block;
+    white-space: pre;
+}
+
+.Description .sup:hover {
+    color: #ffb8c0;
+}
+
+.box {
+    position: relative;
+    display: inline-block;
+}
+.child {
+    position: absolute;
+    background-color: #f15371;
+    width: 100%;
+    height: 80%;
+    top: 0;
+    left: 0;
+}
+
+.me {
+    font-size: 10pt;
+    color: gray;
+}
+
+.author .me {
+    cursor: default;
+}
+.author .me a {
+    cursor: default;
+    font-size: 4pt;
+}
+
+.music {
+    display: none;
+}
+
+#crush {
+    width: 100%;
+    height: 37%;
+}
+.close-layerMask2:hover {
+    color: #f4f4f4;
+}
+
+.mt-4 {
+    margin-top: unset !important;
+}
+.tamthu {
+    margin-top: 10px;
+}
+.fa-heart {
+    color: red;
+}
